@@ -1,0 +1,14 @@
+@use '../../styles/partials/mixins'as *;
+
+.login{
+  background-color: aquamarine;
+  height: 100vh;
+
+
+  &__cont{
+    margin: 2rem;
+    border: red solid 1px;
+    display: flex;
+    flex-direction: column;
+}
+}

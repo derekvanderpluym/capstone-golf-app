@@ -1,0 +1,89 @@
+
+.add{
+
+  background-image: url(../../assets/images/grass.jpg);
+  background-size: cover;
+  height: 100vh;
+
+  &__row{
+    display: flex;
+  }
+
+
+  &__title{
+    color: white;
+    background-color: #329ca8;
+    padding: 1rem 1rem;
+    margin-bottom: 1rem;
+    height: 4rem;
+  }
+
+  &__c1{
+    border: black solid 1px;
+    padding: 0 1px;
+    text-align: center;
+    font-size: 1.2rem;
+    padding-top: 4px;
+    width: 3.5rem;
+    background-color: whitesmoke;
+  }
+
+  &__square{
+    border: black solid 1px;
+    width: 1.6rem;
+    height: 1.7rem;
+    font-size: 1rem;
+    text-align: center;
+    padding-top: 4px;
+    background-color: whitesmoke;
+  }
+
+  &__input{
+    width: 1.6rem;
+    height: 1.7rem;
+    text-align: center;
+    border-radius: 0;
+    border: 1px solid black;
+  }
+
+  &__label{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-right: 1rem;
+  }
+
+  &__card{
+    // border: red solid 1px;
+    margin: 1rem;
+  }
+
+  &__form-cont{
+    display: flex;
+    flex-direction: column;
+    // border: black solid 2px;
+    background-color: white;
+    // opacity: 70%;
+    margin: 0 1rem;
+    padding: .5rem;
+    border-radius: 5px;
+  }
+
+  &__input-cont{
+    display: flex;
+    margin-bottom: .3rem;
+  }
+
+  &__button{
+    color: white;
+    background-color: #329ca8;
+    font-size: 1.3rem;
+    border-radius: 5px;
+    height: 4rem;
+    width: 15rem;
+    border-style: none;
+  }
+  &__btn-cont{
+    display: flex;
+    justify-content: center;
+  }
+}

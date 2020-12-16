@@ -1,0 +1,108 @@
+
+.sc{
+
+  background-image: url(../../assets/images/grass.jpg);
+  background-size: cover;
+  height: 100%;
+  padding-bottom: 1rem;
+
+
+  &__row{
+    display: flex;
+  }
+
+  &__header{
+    color: white;
+    background-color: #329ca8;
+    padding: .5rem 1rem;
+  }
+
+  &__cont{
+    padding: 1rem 0;
+    margin: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+  }
+
+  &__front{
+    margin-bottom: .3rem;
+    margin-top: 1rem;
+    border: black 1px solid;
+    width: 290px;
+  }
+
+  &__back{
+    border: black 1px solid;
+    width: 322px;
+  }
+
+  &__c1{
+    border: black solid 1px;
+    padding: 0 1px;
+    text-align: center;
+    font-size: 1rem;
+    padding-top: 2px;
+    width: 3rem;
+    background-color: whitesmoke;
+  }
+
+  &__square{
+    border: black solid 1px;
+    background-color: whitesmoke;
+    width: 1.5rem;
+    height: 1.7rem;
+    font-size: 1rem;
+    text-align: center;
+    padding-top: 4px;
+
+    &--last{
+      border: black solid 1px;
+      background-color: whitesmoke;
+      width: 2rem;
+      height: 1.7rem;
+      font-size: 1rem;
+      text-align: center;
+      padding-top: 4px;
+    }
+  }
+
+  &__input{
+    width: 1.5rem;
+    height: 1.7rem;
+    text-align: center;
+    border-radius: 0;
+    border: 1px solid black;
+
+    &--last{
+      width: 2rem;
+      border: 1px solid black;
+    }
+  }
+
+  &__date-label{
+    margin-left: 1rem;
+  }
+
+  &__button{
+    color: white;
+    background-color: #329ca8;
+    font-size: 1.3rem;
+    border-radius: 5px;
+    margin: 1rem 0;
+    height: 4rem;
+    width: 15rem;
+    border-style: none;
+  }
+  &__btn-cont{
+    display: flex;
+    justify-content: center;
+  }
+
+  &__form{
+    background-color:rgb(255, 255, 255, 0.8);
+    margin: 1rem;
+    border-radius: 5px;
+    padding-top: 1rem;
+  }
+}

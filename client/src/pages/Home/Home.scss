@@ -1,0 +1,22 @@
+
+.home{
+  background-image: url(../../assets/images/grass.jpg);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  // justify-content: space-between;
+  // margin-top: 1rem;
+
+  &__cont{
+    color: #329ca8;
+    background-color: white;
+    border-radius: 5px;
+    margin: 2rem;
+    height: 200px;
+    opacity: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

@@ -1,0 +1,34 @@
+
+.courses{
+  background-image: url(../../assets/images/grass.jpg);
+  background-size: contain;
+  height: 100%;
+  padding-bottom: 1rem;
+  // display: flex;
+
+  &__button{
+    color: white;
+    background-color: #329ca8;
+    font-size: 1.3rem;
+    border-radius: 5px;
+    margin-top: .5rem;
+    height: 4rem;
+    width: 15rem;
+    border-style: none;
+    margin-left: 1rem;
+  }
+  &__btn-cont{
+    display: flex;
+    justify-content: center;
+  }
+
+  &__title{
+    color: white;
+    background-color: #329ca8;
+    // background-color: whitesmoke;
+    // color: #329ca8;
+    padding: 1rem 1rem;
+    margin-bottom: 1rem;
+    height: 4rem;
+  }
+}
