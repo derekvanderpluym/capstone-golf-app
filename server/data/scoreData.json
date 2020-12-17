@@ -1,50 +1,82 @@
 [
     {
         "id": "d5a9a9f8-2267-4025-9de4-8d4aa7afffcc",
-        "date": "12/12/2020",
-        "totalScore": "100",
-        "totalPutts": "13",
-        "totalFairways": "12",
+        "date": "2020-05-16",
+        "totalScore": "90",
+        "totalPutts": "36",
+        "totalFairways": "8",
         "totalGirs": "1"
     },
     {
         "id": "33a89ead-774f-464d-a9ea-2d5ca2fb674e",
-        "date": "12/11/2020",
-        "totalScore": "100",
-        "totalPutts": "13",
+        "date": "2020-05-20",
+        "totalScore": "87",
+        "totalPutts": "30",
         "totalFairways": "12",
         "totalGirs": "3"
     },
     {
         "id": "b1eeb74a-34b4-4e72-b1b5-3b37a076197f",
-        "date": "12/12/2020",
-        "totalScore": "33",
-        "totalPutts": "30",
-        "totalFairways": "3",
-        "totalGirs": "3"
+        "date": "2020-06-02",
+        "totalScore": "79",
+        "totalPutts": "29",
+        "totalFairways": "9",
+        "totalGirs": "8"
     },
     {
         "id": "476f5703-f001-4440-8e8e-8c333eb73bd3",
-        "date": "12/12/2020",
-        "totalScore": "100",
+        "date": "2020-06-06",
+        "totalScore": "88",
         "totalPutts": "40",
-        "totalFairways": "3",
-        "totalGirs": "3"
+        "totalFairways": "9",
+        "totalGirs": "9"
     },
     {
         "id": "e66fed21-9834-4b68-9ab6-cccd10ca2f0e",
-        "date": "12/12/2020",
-        "totalScore": "100",
-        "totalPutts": "13",
-        "totalFairways": "12",
-        "totalGirs": "100"
+        "date": "2020-06-20",
+        "totalScore": "81",
+        "totalPutts": "40",
+        "totalFairways": "4",
+        "totalGirs": "15"
     },
     {
-        "id": "c757e3a5-4659-43e5-b513-91057030af24",
-        "totalScore": "100",
-        "totalPutts": "13",
+        "id": "d5a9a9f8-2267-4025-9de4-8d4aa7afffcc",
+        "date": "2020-05-16",
+        "totalScore": "90",
+        "totalPutts": "36",
+        "totalFairways": "8",
+        "totalGirs": "6"
+    },
+    {
+        "id": "33a89ead-774f-464d-a9ea-2d5ca2fb674e",
+        "date": "2020-05-20",
+        "totalScore": "87",
+        "totalPutts": "30",
         "totalFairways": "12",
-        "totalGirs": "87",
-        "date": "12/12/2020"
+        "totalGirs": "5"
+    },
+    {
+        "id": "b1eeb74a-34b4-4e72-b1b5-3b37a076197f",
+        "date": "2020-06-02",
+        "totalScore": "79",
+        "totalPutts": "29",
+        "totalFairways": "9",
+        "totalGirs": "5"
+    },
+    {
+        "id": "476f5703-f001-4440-8e8e-8c333eb73bd3",
+        "date": "2020-06-06",
+        "totalScore": "88",
+        "totalPutts": "32",
+        "totalFairways": "9",
+        "totalGirs": "9"
+    },
+    {
+        "id": "e66fed21-9834-4b68-9ab6-cccd10ca2f0e",
+        "date": "2020-06-20",
+        "totalScore": "81",
+        "totalPutts": "30",
+        "totalFairways": "4",
+        "totalGirs": "12"
     }
 ]

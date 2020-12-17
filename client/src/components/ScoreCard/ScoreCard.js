@@ -18,27 +18,27 @@ class ScoreCard extends Component {
 
   // onChange = (e) => this.setState ({ totalScore: e.target.value });
 
-  validate = () => {
-    let totalScoreError = ""
+  // validate = () => {
+  //   let totalScoreError = ""
 
-    if (!this.state.totalScore) {
-      totalScoreError = "cannot be blank";
-    }
-    if (totalScoreError) {
-      this.setState({ totalScoreError });
-      return false;
-    }
+  //   if (!this.state.totalScore) {
+  //     totalScoreError = "cannot be blank";
+  //   }
+  //   if (totalScoreError) {
+  //     this.setState({ totalScoreError });
+  //     return false;
+  //   }
 
-    return true;
-  };
+  //   return true;
+  // };
 
   addScore = (e) => {
     e.preventDefault();
 
-    const isValid = this.validate();
-    if (isValid) {
-      console.log(this.state);
-    }
+    // const isValid = this.validate();
+    // if (isValid) {
+    //   console.log(this.state);
+    // }
 
     // if (this.state.totalScore === "") {
     //   alert("??");
@@ -80,9 +80,9 @@ class ScoreCard extends Component {
 
 
   render() {
-    // if (this.state.redirect){
-    //   return <Redirect to = '/' />
-    // }
+    if (this.state.redirect){
+      return <Redirect to = '/' />
+    }
     return (
       <section className="sc">
         <div className="sc__header">

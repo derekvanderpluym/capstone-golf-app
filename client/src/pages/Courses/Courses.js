@@ -30,23 +30,28 @@ class Courses extends Component {
 
     return (
     <section className="courses">
-      <h1 className="courses__title">Courses</h1>
-      <Link to="/add-course"><button type="submit" id="header__button" className="courses__button">Add New Course</button></Link>
-      {this.state.courseData.map(courseData => {
-        return <CourseCard 
-          clubName={courseData.ClubName}
-          courseName={courseData.CourseName}
-          city={courseData.City}
-          state={courseData.State}
-          country={courseData.Country}
-          hole={courseData.Holes}
-          par={courseData.Par}
-          key={courseData.CourseID}
-          id={courseData.CourseID}
-          image={courseData.Img}
-        />
-
-      })}
+      <div className="courses__cont">
+        <h1 className="courses__title">Courses</h1>
+        <div className="courses__btn-cont"> 
+          <Link to="/add-course"><button type="submit" id="header__button" className="courses__button">Add New Course</button></Link>
+        </div>
+        <div className="courses__card">
+          {this.state.courseData.map(courseData => {
+            return <CourseCard 
+              clubName={courseData.ClubName}
+              courseName={courseData.CourseName}
+              city={courseData.City}
+              state={courseData.State}
+              country={courseData.Country}
+              hole={courseData.Holes}
+              par={courseData.Par}
+              key={courseData.CourseID}
+              id={courseData.CourseID}
+              image={courseData.Img}
+            />
+          })}
+        </div>
+      </div>
     </section>
   )}
 }

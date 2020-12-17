@@ -18,19 +18,20 @@
     height: 4rem;
   }
 
+  
   &__c1{
     border: black solid 1px;
     padding: 0 1px;
     text-align: center;
     font-size: 1.2rem;
     padding-top: 4px;
-    width: 3.5rem;
+    width: 3.3rem;
     background-color: whitesmoke;
   }
 
   &__square{
     border: black solid 1px;
-    width: 1.6rem;
+    width: 1.53rem;
     height: 1.7rem;
     font-size: 1rem;
     text-align: center;
@@ -39,10 +40,9 @@
   }
 
   &__input{
-    width: 1.6rem;
+    width: 1.53rem;
     height: 1.7rem;
     text-align: center;
-    border-radius: 0;
     border: 1px solid black;
   }
 
@@ -52,20 +52,25 @@
     margin-right: 1rem;
   }
 
+  &__form-input{
+    border-radius: 5px;
+    border-style: none;
+    padding-left: .5rem;
+  }
+
   &__card{
-    // border: red solid 1px;
     margin: 1rem;
   }
 
   &__form-cont{
     display: flex;
     flex-direction: column;
-    // border: black solid 2px;
-    background-color: white;
-    // opacity: 70%;
-    margin: 0 1rem;
-    padding: .5rem;
+    background-color:rgb(255, 255, 255, .9);
+    margin: 0 auto;
+    padding: 1rem .5rem;
     border-radius: 5px;
+    max-width: 369px;
+    box-shadow: 10px 10px 20px 1px black;
   }
 
   &__input-cont{

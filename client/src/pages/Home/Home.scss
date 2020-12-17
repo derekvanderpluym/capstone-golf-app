@@ -1,3 +1,5 @@
+@use '../../styles/partials/mixins.scss' as *;
+@use '../../styles/partials/variables.scss' as *;
 
 .home{
   background-image: url(../../assets/images/grass.jpg);
@@ -5,18 +7,28 @@
   height: 100vh;
   display: flex;
   flex-direction: column;
-  // justify-content: space-between;
-  // margin-top: 1rem;
 
   &__cont{
     color: #329ca8;
     background-color: white;
     border-radius: 5px;
     margin: 2rem;
-    height: 200px;
+    height: 12.5rem;
     opacity: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 10px 10px 20px 1px black;
+    @include tablet{
+      max-width: 25rem;
+      margin: 2rem auto;
+    }
+  }
+  &__cont:hover{
+    opacity: 100%;
+  }
+
+  &__cont--top{
+    margin-top: 4rem;
   }
 }

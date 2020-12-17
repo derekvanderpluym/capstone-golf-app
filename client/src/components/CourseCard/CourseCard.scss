@@ -25,12 +25,19 @@ ul{
   &__container{
     background-color: whitesmoke;  
     border-radius: 5px;
-    margin-top: 1.5rem;
-    // box-shadow: 5px 5px 5px darkgreen;
+    margin-top: 2.5rem;
+    box-shadow: 10px 10px 20px 1px black;
+  }
+  &__container:hover{
+    filter: grayscale(70%)
   }
 
   &__title{
     color: black;
+  }
+  &__course-name{
+    color: black;
+    padding-bottom: .5rem;
   }
 
   &__text{

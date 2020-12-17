@@ -91,7 +91,7 @@ export default class AddCourse extends Component {
             <label htmlFor="holes" className="add__label">Holes: </label>
             <input type="text" id="Holes" className="add__form-input" placeholder="Holes"></input>
           </div>
-        </div>
+        
 {/* FRONT */}
         <div className="add__card"> 
           <div className="add__front">
@@ -116,8 +116,10 @@ export default class AddCourse extends Component {
             </div>
           </div>
         </div>
+        
         <div className="add__btn-cont">
           <button type="submit" id="add__buttonId" className="add__button">Submit Course</button>
+        </div>
         </div>
       </form>
     </section>
